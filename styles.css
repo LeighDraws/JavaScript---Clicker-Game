@@ -1,0 +1,52 @@
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+display: grid;
+gap: 2em;
+grid-template-columns: 90px 90px 90px;
+grid-template-rows: 50px 50px 50px;
+border-radius: 20%;
+}
+
+button {
+    display: flex;
+    color: white;
+    border: none;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue.clicked {
+    display: none;
+}
+
+.blue:hover {
+    background-color: rgb(24, 24, 132);
+}
+
+.red {
+    background-color: red;
+}
+
+.red:hover {
+    background-color: rgb(117, 13, 13);
+}
+
+.yellow {
+    background-color: orange;
+}
+
+.yellow:hover {
+    background-color: rgb(138, 79, 2);
+}
