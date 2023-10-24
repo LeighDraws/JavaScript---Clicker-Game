@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Click Game</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
 </head>
-
     <body>
         <section class="game">
-            <section class="grid">
-                <button type="button" class="blue">Clic Gauche</button>
-                <button type="button" class="red">Clic Droit</button>
-                <button type="button" class="yellow">Double Clic</button>
-                <button type="button" class="blue">Clic Gauche</button>
-                <button type="button"  class="red">Clic Droit</button>
-                <button type="button" class="yellow">Double Clic</button>
-                <button type="button"  class="blue">Clic Gauche</button>
-                <button type="button" class="red">Clic Droit</button>
-                <button type="button"  class="yellow">Double Clic</button>
-            </section>
+            <h1>Jeu du Clic !</h1>
+            <section class="bloc-jeu">
+                <section class="grid">
+                        <button type="button" class="blue">Clic Gauche</button>
+                        <button type="button" class="red">Clic Droit</button>
+                        <button type="button" class="yellow">Double Clic</button>
+                        <button type="button" class="blue">Clic Gauche</button>
+                        <button type="button"  class="red">Clic Droit</button>
+                        <button type="button" class="yellow">Double Clic</button>
+                        <button type="button"  class="blue">Clic Gauche</button>
+                        <button type="button" class="red">Clic Droit</button>
+                        <button type="button"  class="yellow">Double Clic</button>
+                </section>
+                <p id="message">Cliquez sur les boutons avec le bon clic de souris !</p>
+            </section> 
         </section>
-        <!-- <script>
-            let allButtons = document.querySelectorAll("button");
-            allButtons.addEventListener("click", function() {
-                console.log("Ca marche!")
-            })
-        </script> -->
     </body>
     <script src="script.js"></script>
 </html>
