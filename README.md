@@ -15,6 +15,8 @@ Plusieurs boutons sont affichés à l'écran et le but du jeu est de les cliquer
 - ~~Dupliquer les fonctions pour chaque type de bouton~~
 - ~~Ajouter un message à l'écran quand le mauvais clic est cliqué~~
 - ~~Bloquer le clic gauche quand l'utilisateur double clic (avec un timer?)~~
-- Trouver un moyen pour mettre les boutons de façon aléatoire
-- Créer une alerte de fin de partie quand il n'y a plus de bouton (ou un message in game avec un bouton pour relancer)
-- Permettre le relancement d'une nouvelle partie 
+- ~~Bloquer la position des boutons quand ils disparaissent~~ (au lieu de display none, j'ai utilisé un visibility hidden)
+- ~~Trouver un moyen pour mettre les boutons de façon aléatoire, tout en gardant le format de grid~~
+- ~~Créer une alerte de fin de partie quand il n'y a plus de bouton (ou un message in game avec un bouton pour relancer)~~
+- ~~Permettre le relancement d'une nouvelle partie~~ 
+
