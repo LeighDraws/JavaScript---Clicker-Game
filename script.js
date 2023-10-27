@@ -1,3 +1,17 @@
+
+
+var grid = document.getElementById("grid")
+var buttonClasses = ["blue" , "red" , "yellow"]
+var buttonTexts = ["Clic Gauche" , "Clic Droit" , "Double Clic"]
+
+for(var i = 0; i < 9; i++) {
+    var btn = document.createElement("button");
+    var radomIndex = Math.floor(Math.random()*3);
+    btn.className = buttonClasses[radomIndex];
+    btn.textContent = buttonTexts[radomIndex]
+    grid.appendChild(btn)
+}
+
 // Cette fonction empêche le menu déroulant de s'ouvrir quand on fait un clic droit sur les boutons bleus et jaunes (et affiche un message pour l'utilisateur)
 function preventRightClick(event) {
     event.preventDefault();
@@ -71,3 +85,11 @@ allYellowButtons.forEach(button => {
     })
     button.addEventListener("contextmenu", preventRightClick)
 })
+
+
+const refresh = document.getElementById("refresh");
+refresh.addEventListener("click", function endGame () {
+    window.location.reload(true)
+}
+)
+
